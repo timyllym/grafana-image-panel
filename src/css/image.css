@@ -1,0 +1,7 @@
+panel-plugin-grafana-image-panel .panel-content {
+    padding: 20px;
+}
+
+panel-plugin-grafana-image-panel img {
+    width: 100%;
+}
