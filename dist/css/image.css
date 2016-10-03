@@ -5,3 +5,31 @@ panel-plugin-grafana-image-panel .panel-content {
 panel-plugin-grafana-image-panel img {
     width: 100%;
 }
+
+.spot {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    border: 2px solid #ffffff;
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+}
+
+.spot.red {
+    background-color: #e11323;
+}
+
+.spot.green {
+    background: #40b600;
+}
+
+.spot.small {
+    width: 35px;
+    height: 35px;
+    font-size: 18px;
+}
